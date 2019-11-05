@@ -1,4 +1,5 @@
 import 'package:animation_guide/animation_widget.dart';
+import 'package:animation_guide/hooks_view.dart';
 import 'package:flutter/material.dart';
 import './basic_animation.dart';
 
@@ -10,7 +11,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Basic Animation',
-      home: AnimatedWidgetView(),
+      home: HooksView(),
     );
   }
 }
