@@ -1,13 +1,12 @@
 import 'package:flutter/material.dart';
 
-class AnimatedWidgetView extends StatefulWidget {
-  AnimatedWidgetView({Key key}) : super(key: key);
+class HooksView extends StatefulWidget {
+  HooksView({Key key}) : super(key: key);
 
-  _AnimatedWidgetViewState createState() => _AnimatedWidgetViewState();
+  _HooksViewState createState() => _HooksViewState();
 }
 
-class _AnimatedWidgetViewState extends State<AnimatedWidgetView>
-    with TickerProviderStateMixin {
+class _HooksViewState extends State<HooksView> with TickerProviderStateMixin {
   AnimationController controller;
   Animation growAnimation;
 
