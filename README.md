@@ -26,3 +26,5 @@ Object will notify the controller through listenable protocal whenever its value
 Ticker Class:
 Class that listens to the frame callback and calls a tick function that passes the elapsed duration between the current frame and the last frame to the ticker listener.
 In our case ticker listener is the controller
+
+Implementation of Basic animation, animatedWidget, flutter_hooks and flutter_sequence_animation
